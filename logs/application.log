@@ -1,0 +1,39 @@
+2023-10-01T15:29:12.892+01:00  INFO 19488 --- [main] com.auditlogs.AuditlogsApplication       : Starting AuditlogsApplication using Java 17.0.4.1 with PID 19488 (C:\Users\EL KHADDI\Desktop\webproject\auditlogs\target\classes started by EL KHADDI in C:\Users\EL KHADDI\Desktop\webproject\auditlogs)
+2023-10-01T15:29:12.894+01:00  INFO 19488 --- [main] com.auditlogs.AuditlogsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-10-01T15:29:13.336+01:00  INFO 19488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-01T15:29:13.388+01:00  INFO 19488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-10-01T15:29:13.847+01:00  INFO 19488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-01T15:29:13.855+01:00  INFO 19488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-01T15:29:13.855+01:00  INFO 19488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-01T15:29:13.926+01:00  INFO 19488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-01T15:29:13.927+01:00  INFO 19488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 996 ms
+2023-10-01T15:29:13.951+01:00  INFO 19488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-01T15:29:14.101+01:00  INFO 19488 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:task_db user=USERNAME
+2023-10-01T15:29:14.104+01:00  INFO 19488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-01T15:29:14.112+01:00  INFO 19488 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:task_db'
+2023-10-01T15:29:14.229+01:00  INFO 19488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-01T15:29:14.273+01:00  INFO 19488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-01T15:29:14.275+01:00  INFO 19488 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-01T15:29:14.411+01:00  INFO 19488 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-01T15:29:14.539+01:00  INFO 19488 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-01T15:29:14.782+01:00  INFO 19488 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-01T15:29:15.373+01:00  INFO 19488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-01T15:29:15.412+01:00  INFO 19488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-01T15:29:15.792+01:00  WARN 19488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-01T15:29:16.184+01:00  INFO 19488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-01T15:29:16.194+01:00  INFO 19488 --- [main] com.auditlogs.AuditlogsApplication       : Started AuditlogsApplication in 3.633 seconds (process running for 4.109)
+2023-10-01T15:29:45.089+01:00  INFO 19488 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-01T15:29:45.089+01:00  INFO 19488 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-01T15:29:45.091+01:00  INFO 19488 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-01T15:29:45.130+01:00  INFO 19488 --- [http-nio-8090-exec-1] com.auditlogs.aop.AuditLogAspect         : Before executing method: Task com.auditlogs.task.TaskServiceImpl.getTask(Long)
+2023-10-01T15:29:45.172+01:00  INFO 19488 --- [http-nio-8090-exec-1] com.auditlogs.aop.AuditLogAspect         : Method called: Task com.auditlogs.task.TaskServiceImpl.getTask(Long)
+2023-10-01T15:29:45.173+01:00  INFO 19488 --- [http-nio-8090-exec-1] com.auditlogs.aop.AuditLogAspect         : Time Taken by method getTask is 44
+2023-10-01T15:29:56.846+01:00  INFO 19488 --- [http-nio-8090-exec-2] com.auditlogs.aop.AuditLogAspect         : Before executing method: String com.auditlogs.task.TaskServiceImpl.deleteTask(Long)
+2023-10-01T15:29:56.848+01:00 ERROR 19488 --- [http-nio-8090-exec-2] com.auditlogs.aop.AuditLogAspect         : Exception thrown in method : deleteTask
+2023-10-01T15:29:56.848+01:00 ERROR 19488 --- [http-nio-8090-exec-2] com.auditlogs.aop.AuditLogAspect         : Exception message : No task found with id = 9
+2023-10-01T15:29:56.848+01:00  INFO 19488 --- [http-nio-8090-exec-2] com.auditlogs.aop.AuditLogAspect         : Method called: String com.auditlogs.task.TaskServiceImpl.deleteTask(Long)
+2023-10-01T15:29:56.848+01:00 ERROR 19488 --- [http-nio-8090-exec-2] com.auditlogs.aop.AuditLogAspect         : Exception thrown in method : deleteTask
+2023-10-01T15:29:56.848+01:00 ERROR 19488 --- [http-nio-8090-exec-2] com.auditlogs.aop.AuditLogAspect         : Exception message : No task found with id = 9
+2023-10-01T15:30:58.581+01:00  INFO 19488 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-01T15:30:58.780+01:00  INFO 19488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-01T15:30:58.793+01:00  INFO 19488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
