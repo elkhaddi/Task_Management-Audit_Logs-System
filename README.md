@@ -2,7 +2,12 @@
 Task Management Audit Log System
 
 # Project Description: 
-The Task Management Audit Log System is designed to record and monitor all activities related to task management within the application. It uses Spring Boot AOP to intercept and log specific actions and changes to application.log file.
+A basic task manager API that allows users to create, read, update, and delete
+tasks. This project covers fundamental backend development concepts such as
+routing, database interaction, API endpoints and perform the logging cross-cutting concern.
+• Developed RESTfull web services with Spring Boot and Spring Data JPA.
+• Developed logging aspect using Spring AOP and SLF4J library.
+
 
 # Key features:
 Task Creation and Updates: Log when tasks are created, modified, or deleted, along with details of the changes made.
