@@ -3,8 +3,7 @@ Task Management Audit Log System
 
 # Project Description: 
 A basic task manager API that allows users to create, read, update, and delete
-tasks. This project covers fundamental backend development concepts such as
-routing, database interaction, API endpoints and perform the logging cross-cutting concern.
+tasks. This project covers fundamental backend development concepts such as routing, database interaction, API endpoints and perform the logging cross-cutting concern.
 • Developed RESTfull web services with Spring Boot and Spring Data JPA.
 • Developed logging aspect using Spring AOP and SLF4J library.
 
